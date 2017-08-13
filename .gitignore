@@ -240,3 +240,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Zylab.Interview.BinStorage_RandomData2.zip
+/Zylab.Interview.BinStorage.zip
+/Zylab.Interview.BinStorage.7z
+/Binary Storage.docx
