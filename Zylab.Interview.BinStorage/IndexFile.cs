@@ -23,7 +23,7 @@ namespace Zylab.Interview.BinStorage {
         private const int ENTRY_SIZE_QW = ENTRY_SIZE / sizeof(long);
         private const int DATA_SIZE_QW = ENTRY_SIZE_QW - HASH_SIZE_QW;
 
-        private const int ENTRIES_IN_BLOCK = 128;
+        private const int ENTRIES_IN_BLOCK = 512;
         private const int BLOCK_SIZE = ENTRY_SIZE_QW * ENTRIES_IN_BLOCK;
         private const int INITIAL_SIZE = INITIAL_ENTRY_COUNT * ENTRY_SIZE;
         private const float DEFAULT_LOAD_FACTOR = 0.8f;
